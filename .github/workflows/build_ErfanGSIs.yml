@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://download.h2os.com/5T/MP/OnePlus5THydrogen_43_OTA_064_all_2009080056_338a836209c54a7e.zip
-  ROM_NAME: OxygenOS
+  ROM_URL: https://bigota.d.miui.com/V11.0.6.0.PDCCNXM/miui_MI6X_V11.0.6.0.PDCCNXM_f049df201b_9.0.zip
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
@@ -60,8 +60,5 @@ jobs:
        
        - name: Upload GSI to BitSend
          run: |
-              curl -sL https://git.io/file-transfer | sh
-              ./transfer bit final/GSI.zip
-
+              curl -sL https://6yun.cc/#/home?path=%2F/aa.zip
          
-            
